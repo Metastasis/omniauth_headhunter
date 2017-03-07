@@ -15,12 +15,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install omniauth-gitlab
+    $ gem install omniauth-headhunter
 
 ## Basic Usage
 
     use OmniAuth::Builder do
-      provider :gitlab, ENV['GITLAB_KEY'], ENV['GITLAB_SECRET']
+      provider :headhunter, ENV['HEADHUNTER_KEY'], ENV['HEADHUNTER_SECRET']
     end
     
 ##Author
